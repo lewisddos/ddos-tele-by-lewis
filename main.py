@@ -3,9 +3,9 @@ import subprocess
 import json
 from datetime import datetime, timedelta
 
-API_TOKEN = '7245825813:AAHAATJZpU5Xj2NcTN4WgIah2Kwa9lBzC5k'
+API_TOKEN = '7063308249:AAFg6sRLach6JLxUmq9WfS6H6GJyaW7yPXo'
 bot = telebot.TeleBot(API_TOKEN)
-ADMIN_IDS = [6885521657]
+ADMIN_IDS = [6726028567]
 VIP_FILE = 'vip.json'
 
 def load_vip_data():
@@ -22,7 +22,7 @@ def save_vip_data(data):
 @bot.message_handler(commands=['menu'])
 def handle_start(message):
     bot.reply_to(message, """
-Hello, Welcome To HenryNET-Botnets!
+Hello, Welcome To Lewis-Botnets!
 Commands For Bot:
 /plan: View Account Plan
 /tcp: Attack TCP Legit Methods
